@@ -1,0 +1,125 @@
+.hero-container {
+  position: relative;
+  height: 100%;
+  opacity: 0;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('../images/img1.jpg');
+  height: 185px;
+  margin-bottom: 1%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  border: 2px solid black;
+}
+
+.hero-image:hover {
+  background-size: 120%;
+  -webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+.hero-text {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  margin-top: 10px;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #222;
+}
+
+.hero-text button:hover {
+  background-color: grey;
+  color: white;
+}
+
+.hero-text button a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  transition: 0.5s;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+}
+
+.hero-image-half {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('../images/img2.JPG');
+  float: left;
+  width: 49.5%;
+  height: 90px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  border: 2px solid black;
+}
+
+.hero-image-half:hover {
+  background-size: 120%;
+  -webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+.hero-text-half {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text-half button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 4px 10px;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #222;
+}
+
+.hero-text-half button:hover {
+  background-color: grey;
+  color: white;
+}
+
+.hero-image-half2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('../images/img3.JPG');
+  float: left;
+  width: 49.5%;
+  height: 90px;
+  margin-left: 1%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  border: 2px solid black;
+}
+
+.hero-image-half2:hover {
+  background-size: 120%;
+  -webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
