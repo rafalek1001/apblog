@@ -23,6 +23,18 @@
    * Date: 2019-04-08
    */
 
+/*!
+   * imagesLoaded v4.1.4
+   * JavaScript is all like "You images are done yet or what?"
+   * MIT License
+   */
+
+/*
+    object-assign
+    (c) Sindre Sorhus
+    @license MIT
+    */
+
 /*
 object-assign
 (c) Sindre Sorhus
