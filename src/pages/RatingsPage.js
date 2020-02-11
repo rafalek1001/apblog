@@ -36,10 +36,6 @@ const ratings = [
 class RatingsPage extends Component {
 
   componentDidMount() {
-    $(document).ready(function () {
-      $("html").animate({ scrollTop: 280 }, 1000, 'swing');
-    });
-
     $(".rating").each(function (i) {
       $(this).delay(500 * i).fadeTo(1500, 1);
     });

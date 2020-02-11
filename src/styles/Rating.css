@@ -1,4 +1,8 @@
 .rating {
+  width: 90%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   margin-top: 40px;
   opacity: 0;
 }
@@ -21,4 +25,10 @@
 
 .rating p {
   font-size: 16px;
+}
+
+@media only screen and (max-width: 576px) {
+.rating {
+  width: 70%;
+}
 }

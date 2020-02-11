@@ -51,10 +51,6 @@ const offersList = [
 class OfferPage extends Component {
 
   componentDidMount() {
-    $(document).ready(function () {
-      $("html").animate({ scrollTop: 285 }, 1000, 'swing');
-    });
-
     $('.offer').each(function (i) {
       $(this).delay(500 * i).fadeTo(1000, 1);
     });

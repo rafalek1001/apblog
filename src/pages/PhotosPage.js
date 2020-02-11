@@ -6,6 +6,12 @@ import SimpleReactLightbox from "simple-react-lightbox";
 
 class PhotosPage extends Component {
 
+  componentDidMount() {
+    $(".gallery-li").each(function (i) {
+      $(this).delay(500 * i).fadeTo(1500, 1);
+    });
+  }
+
   render() {
 
     return (

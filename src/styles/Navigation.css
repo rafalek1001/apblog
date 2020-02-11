@@ -46,3 +46,15 @@ nav.main li:nth-child(4) a.active {
 nav.main li:nth-child(5) a.active {
   border-left-color: black;
 }
+
+@media only screen and (max-width: 768px) {
+nav.main a {
+  font-size: 18px;
+}
+}
+
+@media only screen and (max-width: 576px) {
+nav.main a {
+  font-size: 14px;
+}
+}

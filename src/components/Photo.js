@@ -7,10 +7,10 @@ const Photo = () => {
 
   function handleShowPhotos() {
     let photos = [];
-    for (let i = 1; i < 7; i++) {
+    for (let i = 1; i < 20; i++) {
       photos.push(<li className="gallery-li">
         <div className="gallery-thumb">
-          <a href={require(`../images/gallery${i}.JPG`)} className="gallery-link" data-attribute="SRL">
+          <a href={require(`../images/gallery${i}.JPG`)} data-attribute="SRL">
             <img src={require(`../images/gallery-thumb${i}.jpg`)} alt="" className="gallery-pic" />
             <div className="gallery-icon">
               <FontAwesomeIcon icon={faSearch} size="3x" style={{ marginTop: '12px' }}></FontAwesomeIcon>Zobacz

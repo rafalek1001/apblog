@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
 import '../styles/App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './Header';

@@ -1,5 +1,6 @@
 .hero-container {
   position: relative;
+  right: 5%;
   height: 100%;
   opacity: 0;
 }
@@ -122,4 +123,53 @@
   background-size: 120%;
   -webkit-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
+}
+
+@media only screen and (max-width: 576px) {
+.hero-image {
+  height: 120px;
+}
+
+.hero-text button {
+  padding: 4px 10px;
+  margin-top: 4px;
+}
+
+.hero-text h1 {
+  font-size: 30px;
+}
+
+.hero-image-half {
+  height: 69px;
+}
+
+.hero-text-half h3 {
+  font-size: 20px;
+}
+
+.hero-image-half2 {
+  height: 69px;
+}
+}
+
+@media only screen and (max-width: 340px) {
+.hero-image {
+  height: 100px;
+}
+
+.hero-text h1 {
+  font-size: 20px;
+}
+
+.hero-image-half {
+  height: 60px;
+}
+
+.hero-text-half h3 {
+  font-size: 16px;
+}
+
+.hero-image-half2 {
+  height: 60px;
+}
 }

@@ -1,10 +1,11 @@
 import React from 'react';
+import "../styles/Footer.css";
 
 const Footer = () => {
   return (
     <>
-      <span style={{ fontSize: '12px', marginRight: '30px' }}>Telefon: +48 782 443 267</span>
-      <span style={{ fontSize: '12px' }}>E-mail: pituraanita@gmail.com</span>
+      <span className="phone">Telefon: +48 782 443 267</span>
+      <span className="email">E-mail: pituraanita@gmail.com</span>
     </>
   );
 }

@@ -1,6 +1,8 @@
 header {
   position: relative;
   overflow: hidden;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 header img {

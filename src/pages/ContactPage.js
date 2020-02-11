@@ -5,10 +5,6 @@ import '../styles/ContactPage.css';
 class ContactPage extends Component {
 
   componentDidMount() {
-    $(document).ready(function () {
-      $("html").animate({ scrollTop: 285 }, 1000, 'swing');
-    });
-
     $('.contact-image').fadeTo(1000, 1);
   }
 
